@@ -1,0 +1,278 @@
+/* Цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3*/
+/* вторичный цвет фона F5F4FA */
+
+:root {
+    --primari-text-color: #E5E5E5;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primari-white-color: #FFFFFF;
+    --primari-gray-color: #F5F4FA;
+    --list-color: #757575; 
+}
+
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6 {
+    color: var(--title-text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+
+    font-family: Roboto, sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo */
+
+.logo {
+    color: #000000;
+
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.span {
+    color: var(--accent-color);
+    
+}
+
+
+
+/* Site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus  {
+    color: var(--accent-color);
+
+    font-family: inherit;
+}
+
+
+.site-nav .link.carrent {
+color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.site-nav .link-list {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.site-nav .link-list:hover, 
+.site-nav .link-list:focus  {
+    color: var(--accent-color);
+
+    font-family: inherit;
+}
+
+/* Герой */
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    
+    color: var(--primari-white-color);
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+
+
+
+
+.hero .button {
+    color: var(--primari-white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+}
+
+.hero .button:hover,
+.hero .button:focus {
+    color: var(--primari-white-color);
+    background-color: #188CE8;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+}
+/* featyre-list" */
+
+.featyre-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.16;
+    
+}
+
+.title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.16;
+    
+}
+
+.title-paragraph {
+    color:  var(--list-color);
+    
+}
+
+.advantages {
+    background-color: #E5E5E5;
+}
+/* секция услуги*/
+
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    
+    
+}
+.section-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+
+    .section-paragraph {
+    color: var(--list-color);
+    font-size: 16px;
+    line-height: 1.19;
+    }
+
+    .services {
+        background-color: var(--primari-text-color);
+    }
+
+/* staff */
+
+.staff {
+    background-color: #F5F4FA;
+}
+
+/* футер */
+footer{
+    background-color: #2F303A;
+}
+
+.footer_adress {
+    font-style: inherit;
+}
+
+.logo-two {
+    color: var(--primari-white-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.footer .logo-two:hover, 
+.footer .logo-two:focus  {
+    color: var(--primari-white-color);
+
+    font-family: inherit;
+}
+
+.footer .color-address {
+    color: var(--primari-white-color);
+}
+
+.footer .color-text {
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.footer .color-address:hover, 
+.footer .color-address:focus  {
+    color: var(--primari-white-color);
+
+    font-family: inherit;
+}
+
+.footer .color-text:hover, 
+.footer .color-text:focus  {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-family: inherit;
+}
+
+
+
+
+
+/* Портфолио 
+направление*/
+
+
+.button-class.carrent {
+    color: var(--primari-white-color);
+    background-color: var(--accent-color);
+}
+
+.button-class {
+    color: var(--title-text-color);
+}
+
+.button-class:hover, 
+.button-class:focus  {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.link-text {
+color: var(--title-text-color);
+}
+.list-tex {
+    color: var(--list-color);
+}
+
+.link {
+    color: var(--title-text-color);
+}
+
